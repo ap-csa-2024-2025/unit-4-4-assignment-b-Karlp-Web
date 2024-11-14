@@ -22,6 +22,7 @@ public class Main
       String sub = word.substring(i, i+N);
       boolean beginOrSpaceBefore;
       boolean endOrSpaceAfter;
+      
       int endOfTarget = i + 
 
       boolean properlyContained = beginOrSpaceBefore && endOrSpaceAfter;
